@@ -4,6 +4,5 @@ ENTRYPOINT ["redpanda", "start", \
   "--smp", "1", \
   "--memory", "1G", \
   "--overprovisioned", \
-  "--check=false", \
   "--kafka-addr", "PLAINTEXT://0.0.0.0:9092", \
   "--advertise-kafka-addr", "PLAINTEXT://0.0.0.0:9092"]
